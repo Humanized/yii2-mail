@@ -1,1 +1,33 @@
-# yii2-mailer
+{
+    "name": "humanized/yii2-mail",
+    "type": "yii2-extension",
+    "description": "Yii2 module to handle application emailing",
+    "keywords": ["yii2", "email","helper"],
+    "license": "GPL-3.0",
+    "version": "0.1",
+    "support": {
+        "issues": "https://github.com/humanized/yii2-mail/issues",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "https://github.com/humanized/yii2-mail/wiki",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/humanized/yii2-mail"
+    },
+    "authors": [
+        {
+            "name": "Jeffrey Geyssens",
+            "email": "jeffrey@humanized.be"
+        },
+        {
+            "name": "François-Xavier de Saint Pern",
+            "email": "fx@humanized.be"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "humanized\\mail\\": ""
+        }
+    }
+}
